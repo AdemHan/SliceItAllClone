@@ -197,11 +197,46 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6497856487302503195, guid: f50c700147d27da479ae870842a80e0d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4afbf713a5e9be84dbc7cc5391103f2f, type: 2}
+    - target: {fileID: 6497856487302503195, guid: f50c700147d27da479ae870842a80e0d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4afbf713a5e9be84dbc7cc5391103f2f, type: 2}
+    - target: {fileID: 7708240780932557453, guid: f50c700147d27da479ae870842a80e0d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7708240780932557453, guid: f50c700147d27da479ae870842a80e0d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7708240780932557453, guid: f50c700147d27da479ae870842a80e0d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8333898208664770588, guid: f50c700147d27da479ae870842a80e0d,
         type: 3}
       propertyPath: m_Name
       value: "Lego\u0130kili (3)"
       objectReference: {fileID: 0}
+    - target: {fileID: 8841130095892877794, guid: f50c700147d27da479ae870842a80e0d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4afbf713a5e9be84dbc7cc5391103f2f, type: 2}
+    - target: {fileID: 8841130095892877794, guid: f50c700147d27da479ae870842a80e0d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4afbf713a5e9be84dbc7cc5391103f2f, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f50c700147d27da479ae870842a80e0d, type: 3}
 --- !u!4 &3254600593587988709 stripped
@@ -272,11 +307,46 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6497856487302503195, guid: f50c700147d27da479ae870842a80e0d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1bd8cda96e5c06f44b4ed6a3a50f8b15, type: 2}
+    - target: {fileID: 6497856487302503195, guid: f50c700147d27da479ae870842a80e0d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1bd8cda96e5c06f44b4ed6a3a50f8b15, type: 2}
+    - target: {fileID: 7708240780932557453, guid: f50c700147d27da479ae870842a80e0d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7708240780932557453, guid: f50c700147d27da479ae870842a80e0d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7708240780932557453, guid: f50c700147d27da479ae870842a80e0d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8333898208664770588, guid: f50c700147d27da479ae870842a80e0d,
         type: 3}
       propertyPath: m_Name
       value: "Lego\u0130kili (4)"
       objectReference: {fileID: 0}
+    - target: {fileID: 8841130095892877794, guid: f50c700147d27da479ae870842a80e0d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1bd8cda96e5c06f44b4ed6a3a50f8b15, type: 2}
+    - target: {fileID: 8841130095892877794, guid: f50c700147d27da479ae870842a80e0d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1bd8cda96e5c06f44b4ed6a3a50f8b15, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f50c700147d27da479ae870842a80e0d, type: 3}
 --- !u!4 &2335517744531926034 stripped
@@ -347,6 +417,31 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6497856487302503195, guid: f50c700147d27da479ae870842a80e0d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ca60eb59c46c3eb4ab85505316cecf4b, type: 2}
+    - target: {fileID: 6497856487302503195, guid: f50c700147d27da479ae870842a80e0d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: ca60eb59c46c3eb4ab85505316cecf4b, type: 2}
+    - target: {fileID: 7708240780932557453, guid: f50c700147d27da479ae870842a80e0d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7708240780932557453, guid: f50c700147d27da479ae870842a80e0d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7708240780932557453, guid: f50c700147d27da479ae870842a80e0d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8333898208664770588, guid: f50c700147d27da479ae870842a80e0d,
         type: 3}
       propertyPath: m_Name
@@ -355,8 +450,18 @@ PrefabInstance:
     - target: {fileID: 8333898208664770588, guid: f50c700147d27da479ae870842a80e0d,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8841130095892877794, guid: f50c700147d27da479ae870842a80e0d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ca60eb59c46c3eb4ab85505316cecf4b, type: 2}
+    - target: {fileID: 8841130095892877794, guid: f50c700147d27da479ae870842a80e0d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: ca60eb59c46c3eb4ab85505316cecf4b, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f50c700147d27da479ae870842a80e0d, type: 3}
 --- !u!4 &2313295449176866830 stripped
@@ -427,11 +532,46 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6497856487302503195, guid: f50c700147d27da479ae870842a80e0d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5c51917c4fbb60445b135167eb26b36d, type: 2}
+    - target: {fileID: 6497856487302503195, guid: f50c700147d27da479ae870842a80e0d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5c51917c4fbb60445b135167eb26b36d, type: 2}
+    - target: {fileID: 7708240780932557453, guid: f50c700147d27da479ae870842a80e0d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7708240780932557453, guid: f50c700147d27da479ae870842a80e0d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7708240780932557453, guid: f50c700147d27da479ae870842a80e0d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8333898208664770588, guid: f50c700147d27da479ae870842a80e0d,
         type: 3}
       propertyPath: m_Name
       value: "Lego\u0130kili (1)"
       objectReference: {fileID: 0}
+    - target: {fileID: 8841130095892877794, guid: f50c700147d27da479ae870842a80e0d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5c51917c4fbb60445b135167eb26b36d, type: 2}
+    - target: {fileID: 8841130095892877794, guid: f50c700147d27da479ae870842a80e0d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5c51917c4fbb60445b135167eb26b36d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f50c700147d27da479ae870842a80e0d, type: 3}
 --- !u!4 &6866979175023438507 stripped
@@ -507,11 +647,46 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6497856487302503195, guid: f50c700147d27da479ae870842a80e0d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 91ef91101b9e4854db6c09ce0e62dd3e, type: 2}
+    - target: {fileID: 6497856487302503195, guid: f50c700147d27da479ae870842a80e0d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 91ef91101b9e4854db6c09ce0e62dd3e, type: 2}
+    - target: {fileID: 7708240780932557453, guid: f50c700147d27da479ae870842a80e0d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7708240780932557453, guid: f50c700147d27da479ae870842a80e0d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7708240780932557453, guid: f50c700147d27da479ae870842a80e0d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8333898208664770588, guid: f50c700147d27da479ae870842a80e0d,
         type: 3}
       propertyPath: m_Name
       value: "Lego\u0130kili"
       objectReference: {fileID: 0}
+    - target: {fileID: 8841130095892877794, guid: f50c700147d27da479ae870842a80e0d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 91ef91101b9e4854db6c09ce0e62dd3e, type: 2}
+    - target: {fileID: 8841130095892877794, guid: f50c700147d27da479ae870842a80e0d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 91ef91101b9e4854db6c09ce0e62dd3e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f50c700147d27da479ae870842a80e0d, type: 3}
 --- !u!4 &6276411969141904751 stripped
@@ -582,11 +757,46 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6497856487302503195, guid: f50c700147d27da479ae870842a80e0d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a89523358049ad47be725b75a6561b2, type: 2}
+    - target: {fileID: 6497856487302503195, guid: f50c700147d27da479ae870842a80e0d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a89523358049ad47be725b75a6561b2, type: 2}
+    - target: {fileID: 7708240780932557453, guid: f50c700147d27da479ae870842a80e0d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7708240780932557453, guid: f50c700147d27da479ae870842a80e0d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7708240780932557453, guid: f50c700147d27da479ae870842a80e0d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8333898208664770588, guid: f50c700147d27da479ae870842a80e0d,
         type: 3}
       propertyPath: m_Name
       value: "Lego\u0130kili (2)"
       objectReference: {fileID: 0}
+    - target: {fileID: 8841130095892877794, guid: f50c700147d27da479ae870842a80e0d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a89523358049ad47be725b75a6561b2, type: 2}
+    - target: {fileID: 8841130095892877794, guid: f50c700147d27da479ae870842a80e0d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a89523358049ad47be725b75a6561b2, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f50c700147d27da479ae870842a80e0d, type: 3}
 --- !u!4 &5906964502825069945 stripped

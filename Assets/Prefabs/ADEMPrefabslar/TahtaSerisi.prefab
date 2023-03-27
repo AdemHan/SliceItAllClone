@@ -125,6 +125,31 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Tahta\u0130kili (2)"
       objectReference: {fileID: 0}
+    - target: {fileID: 3030765837930308062, guid: f205eb630feecd445bba50229dbc3fbf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.00000031292439
+      objectReference: {fileID: 0}
+    - target: {fileID: 3030765837930308062, guid: f205eb630feecd445bba50229dbc3fbf,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.00000011802199
+      objectReference: {fileID: 0}
+    - target: {fileID: 3030765837930308062, guid: f205eb630feecd445bba50229dbc3fbf,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4198583713235622577, guid: f205eb630feecd445bba50229dbc3fbf,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c68251dd23bdf4a4e8ed8b312530075a, type: 2}
+    - target: {fileID: 4198583713235622577, guid: f205eb630feecd445bba50229dbc3fbf,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 88d111a270af7334a89552efb7487c7e, type: 2}
     - target: {fileID: 6608885814071153300, guid: f205eb630feecd445bba50229dbc3fbf,
         type: 3}
       propertyPath: m_RootOrder
@@ -180,6 +205,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7774098876152729935, guid: f205eb630feecd445bba50229dbc3fbf,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c68251dd23bdf4a4e8ed8b312530075a, type: 2}
+    - target: {fileID: 7774098876152729935, guid: f205eb630feecd445bba50229dbc3fbf,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 88d111a270af7334a89552efb7487c7e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f205eb630feecd445bba50229dbc3fbf, type: 3}
 --- !u!4 &5952590939273410814 stripped
@@ -200,6 +235,31 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Tahta\u0130kili (6)"
       objectReference: {fileID: 0}
+    - target: {fileID: 3030765837930308062, guid: f205eb630feecd445bba50229dbc3fbf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0000002682209
+      objectReference: {fileID: 0}
+    - target: {fileID: 3030765837930308062, guid: f205eb630feecd445bba50229dbc3fbf,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00000023609027
+      objectReference: {fileID: 0}
+    - target: {fileID: 3030765837930308062, guid: f205eb630feecd445bba50229dbc3fbf,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4198583713235622577, guid: f205eb630feecd445bba50229dbc3fbf,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c68251dd23bdf4a4e8ed8b312530075a, type: 2}
+    - target: {fileID: 4198583713235622577, guid: f205eb630feecd445bba50229dbc3fbf,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 88d111a270af7334a89552efb7487c7e, type: 2}
     - target: {fileID: 6608885814071153300, guid: f205eb630feecd445bba50229dbc3fbf,
         type: 3}
       propertyPath: m_RootOrder
@@ -255,6 +315,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7774098876152729935, guid: f205eb630feecd445bba50229dbc3fbf,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c68251dd23bdf4a4e8ed8b312530075a, type: 2}
+    - target: {fileID: 7774098876152729935, guid: f205eb630feecd445bba50229dbc3fbf,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 88d111a270af7334a89552efb7487c7e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f205eb630feecd445bba50229dbc3fbf, type: 3}
 --- !u!4 &7187524819333160650 stripped
@@ -275,6 +345,31 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Tahta\u0130kili"
       objectReference: {fileID: 0}
+    - target: {fileID: 3030765837930308062, guid: f205eb630feecd445bba50229dbc3fbf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.00000013411045
+      objectReference: {fileID: 0}
+    - target: {fileID: 3030765837930308062, guid: f205eb630feecd445bba50229dbc3fbf,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3030765837930308062, guid: f205eb630feecd445bba50229dbc3fbf,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4198583713235622577, guid: f205eb630feecd445bba50229dbc3fbf,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c68251dd23bdf4a4e8ed8b312530075a, type: 2}
+    - target: {fileID: 4198583713235622577, guid: f205eb630feecd445bba50229dbc3fbf,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: f11e3fef89a716245ab8f4b4c6be6de2, type: 2}
     - target: {fileID: 6608885814071153300, guid: f205eb630feecd445bba50229dbc3fbf,
         type: 3}
       propertyPath: m_RootOrder
@@ -330,6 +425,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7774098876152729935, guid: f205eb630feecd445bba50229dbc3fbf,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c68251dd23bdf4a4e8ed8b312530075a, type: 2}
+    - target: {fileID: 7774098876152729935, guid: f205eb630feecd445bba50229dbc3fbf,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 88d111a270af7334a89552efb7487c7e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f205eb630feecd445bba50229dbc3fbf, type: 3}
 --- !u!4 &2105405553371539969 stripped
@@ -350,6 +455,31 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Tahta\u0130kili (4)"
       objectReference: {fileID: 0}
+    - target: {fileID: 3030765837930308062, guid: f205eb630feecd445bba50229dbc3fbf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.00000008940697
+      objectReference: {fileID: 0}
+    - target: {fileID: 3030765837930308062, guid: f205eb630feecd445bba50229dbc3fbf,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.00000011802199
+      objectReference: {fileID: 0}
+    - target: {fileID: 3030765837930308062, guid: f205eb630feecd445bba50229dbc3fbf,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4198583713235622577, guid: f205eb630feecd445bba50229dbc3fbf,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c68251dd23bdf4a4e8ed8b312530075a, type: 2}
+    - target: {fileID: 4198583713235622577, guid: f205eb630feecd445bba50229dbc3fbf,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 88d111a270af7334a89552efb7487c7e, type: 2}
     - target: {fileID: 6608885814071153300, guid: f205eb630feecd445bba50229dbc3fbf,
         type: 3}
       propertyPath: m_RootOrder
@@ -405,6 +535,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7774098876152729935, guid: f205eb630feecd445bba50229dbc3fbf,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c68251dd23bdf4a4e8ed8b312530075a, type: 2}
+    - target: {fileID: 7774098876152729935, guid: f205eb630feecd445bba50229dbc3fbf,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 88d111a270af7334a89552efb7487c7e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f205eb630feecd445bba50229dbc3fbf, type: 3}
 --- !u!4 &67568333037410951 stripped
