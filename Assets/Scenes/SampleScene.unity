@@ -673,7 +673,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0.11577812, y: -0.45779833, z: 0.060270272, w: 0.87942237}
-  m_LocalPosition: {x: 1.7937276, y: 0.5218915, z: -4.552395}
+  m_LocalPosition: {x: 1.8637276, y: 0.3290408, z: -4.5739994}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2170,5 +2170,28 @@ PrefabInstance:
       propertyPath: m_fontColor32.rgba
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 7359120835082901831, guid: 162599d77a5800a47bb36c0b88211d64,
+        type: 3}
+      propertyPath: _levelPrefabs.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7359120835082901831, guid: 162599d77a5800a47bb36c0b88211d64,
+        type: 3}
+      propertyPath: _levelPrefabs.Array.data[0]
+      value: 
+      objectReference: {fileID: 1723002575638188509, guid: eb64506b13a827c409f7030501a0a0b2,
+        type: 3}
+    - target: {fileID: 7359120835082901831, guid: 162599d77a5800a47bb36c0b88211d64,
+        type: 3}
+      propertyPath: _levelPrefabs.Array.data[1]
+      value: 
+      objectReference: {fileID: 1723002575638188509, guid: ec523969e35531e4f9129ad20e96809c,
+        type: 3}
+    - target: {fileID: 7359120835082901831, guid: 162599d77a5800a47bb36c0b88211d64,
+        type: 3}
+      propertyPath: _levelPrefabs.Array.data[2]
+      value: 
+      objectReference: {fileID: 2202070432578925915, guid: 9ba965430b3c2e54cb2ead190bdee226,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 162599d77a5800a47bb36c0b88211d64, type: 3}
