@@ -52,4 +52,27 @@ public class Sliceable : MonoBehaviour, IKnifeHit
         
         _particle.Play();
     }
+
+    /*OnObjectSliced adlý bir Action<int> türünde event oluþturulur. Bu event, nesnenin kesildiði zaman çaðrýlacak ve kesildiði zaman kazanýlacak puaný içerecektir.
+
+    _score deðiþkeni, nesnenin kesildiði zaman kazanýlacak puaný belirtir.
+
+    _particle deðiþkeni, nesne kesildiði zaman oynatýlacak patlama efektini belirtir.
+
+    _isSliced deðiþkeni, nesnenin kesilip kesilmediðini belirtir.
+
+    _rigidbodies deðiþkeni, nesnenin alt nesnelerinin Rigidbody bileþenlerini içerir.
+
+    _scoreTMP deðiþkeni, nesnenin altýndaki TextMeshProUGUI bileþenini içerir.
+
+    Awake() fonksiyonu, bileþenlerin referanslarýný alýr.
+
+    OnEnable() fonksiyonu, nesne etkinleþtirildiðinde çalýþýr ve puan textinin ayarlarýný yapar.
+
+    OnSharpEdgeHit() fonksiyonu, oyuncunun keskin býçakla nesneye çarptýðý zaman çalýþýr. Eðer nesne daha önce kesilmiþse, fonksiyon hiçbir iþlem yapmadan çýkar. Eðer nesne daha önce kesilmemiþse, nesneyi keser, puan textini görünür yapar ve OnObjectSliced event'ýný tetikler.
+
+    OnKnifesBackHit() fonksiyonu, oyuncunun býçaðýn arkasýna çarptýðý zaman çalýþýr. Eðer nesne daha önce kesilmiþse, fonksiyon hiçbir iþlem yapmadan çýkar. Eðer nesne daha önce kesilmemiþse, oyuncuyu geriye doðru zýplatýr.
+
+    Slice() fonksiyonu, nesneyi keser ve patlama efektini oynatýr. Bu fonksiyon, _rigidbodies deðiþkenindeki tüm Rigidbody bileþenleri için isKinematic özelliðini kapatýr ve yukarý doðru bir kuvvet uygular.*/
+
 }

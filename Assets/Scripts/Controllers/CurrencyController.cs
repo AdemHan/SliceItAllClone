@@ -4,28 +4,33 @@ using TMPro;
 
 public class CurrencyController : MonoBehaviour
 {
+    // Toplam para ve kazanýlan para için TextMeshProUGUI bileþenlerine referans
     [SerializeField] private TextMeshProUGUI _totalCurrencyTMP;
     [SerializeField] private TextMeshProUGUI _earnedCurrencyTMP;
     
-    private int _totalCurrency;
-    private int _earnedCurrencyOnThisLevel;
+    private int _totalCurrency; // Toplam para
+    private int _earnedCurrencyOnThisLevel;// Bu seviyede kazanýlan para miktarý
 
     private void OnEnable()
     {
+        // Oyun durumu deðiþtiðinde, Sliceable'dan gelen para miktarý bilgisini güncelle
         GameManager.OnStateChanged += CheckGameState;
         Sliceable.OnObjectSliced += UpdateCurrency;
-        
+
+        // UI'yý güncelle
         UpdateUI();
     }
 
     private void OnDisable()
     {
+        // Oyun durumu deðiþtiðinde, Sliceable'dan gelen para miktarý bilgisini güncelleme aboneliðini iptal et
         GameManager.OnStateChanged -= CheckGameState;
         Sliceable.OnObjectSliced -= UpdateCurrency;
     }
 
     public void ApplyBonus(int multiplier)
     {
+        // Bonus'u belirtilen çarpana göre uygula
         StartCoroutine(Bonus(multiplier));
     }
 
@@ -33,13 +38,14 @@ public class CurrencyController : MonoBehaviour
     {
         yield return new WaitForSeconds(2f);
 
-        _earnedCurrencyOnThisLevel *= multiplier;
-        _earnedCurrencyTMP.text = $"+ {_earnedCurrencyOnThisLevel}";
-        
+        _earnedCurrencyOnThisLevel *= multiplier; // Bu seviyede kazanýlan parayý çarpana göre artýr
+        _earnedCurrencyTMP.text = $"+ {_earnedCurrencyOnThisLevel}";  // Kazanýlan para miktarýný UI'ya yaz
+
+
         yield return new WaitForSeconds(0.5f);
 
-        _totalCurrency += _earnedCurrencyOnThisLevel;
-        _totalCurrencyTMP.text = $"$ {_totalCurrency}";
+        _totalCurrency += _earnedCurrencyOnThisLevel; // Toplam parayý güncelle
+        _totalCurrencyTMP.text = $"$ {_totalCurrency}"; // Toplam para miktarýný UI'ya yaz
     }
 
     private void CheckGameState()
@@ -48,24 +54,24 @@ public class CurrencyController : MonoBehaviour
 
         if (state == GameState.Start)
         {
-            _earnedCurrencyOnThisLevel = 0;
+            _earnedCurrencyOnThisLevel = 0; //yeni seviyede kazanýlan para miktarýný sýfýrla
         }
         else if (state == GameState.Win)
         {
-            _earnedCurrencyTMP.text = $"+ {_earnedCurrencyOnThisLevel}";
+            _earnedCurrencyTMP.text = $"+ {_earnedCurrencyOnThisLevel}"; // Kazanýlan para miktarýný UI'ya yaz
         }
     }
 
     private void UpdateCurrency(int score)
     {
-        _totalCurrency += score;
-        _earnedCurrencyOnThisLevel += score;
-        
-        UpdateUI();
+        _totalCurrency += score;  // Toplam para miktarýný güncelle
+        _earnedCurrencyOnThisLevel += score; // Bu seviyede kazanýlan para miktarýný güncelle
+
+        UpdateUI(); //UI'yý güncelle
     }
 
     private void UpdateUI()
     {
-        _totalCurrencyTMP.text = $"$ {_totalCurrency}";
+        _totalCurrencyTMP.text = $"$ {_totalCurrency}";  // Toplam para miktarýný UI'ya yaz
     }
 }
