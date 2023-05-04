@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Adem.</h1>
-<h3 align="center">Slice It All is a clone of the game we were asked to make for the second level of the Game Factory JR program. The team consists of four people.</h3>
+<h3 align="center">It is a clone of the game Slice It All that our team was asked to make for the third level of the Game Factory JR training program. This game was made by a team of four. I am responsible for the programming and level design of the game.</h3>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
